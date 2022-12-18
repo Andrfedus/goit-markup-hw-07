@@ -1,22 +1,22 @@
-@import "./base/reset";
-
-@import "./base/basic";
-
 @import "./utils/variables";
 @import "./utils/placeholder";
 
+@import "./base/common";
+@import "./base/reset";
+
+@import "./components/logo";
+@import "./components/section";
+@import "./components/modal";
+@import "./components/modal-design";
+
+
 @import "./layout/page-header";
-@import "./_components/logo";
 @import "./layout/page-hero";
 @import "./layout/benefits";
 @import "./layout/presentation";
 @import "./layout/team";
 @import "./layout/customers";
 @import "./layout/footer";
-
-@import "./_components/modal";
-@import "./_components/modal-design";
-
 @import "./layout/portfolio-nav";
 @import "./layout/porfolio-works";
 
